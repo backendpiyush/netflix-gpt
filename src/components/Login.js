@@ -75,7 +75,7 @@ const Login = () => {
           const errorCode = error.code;
           const errorMessage = error.message;
           setErrMessage(errorMessage);
-          console.error("Error creating user:", errorCode, errorMessage);
+          // console.error("Error creating user:", errorCode, errorMessage);
           // ..
         });
     } else {
@@ -95,7 +95,7 @@ const Login = () => {
           const errorCode = error.code;
           const errorMessage = error.message;
           setErrMessage(errorMessage);
-          console.log(errorCode + "" + errorMessage);
+          // console.log(errorCode + "" + errorMessage);
         });
     }
   };
